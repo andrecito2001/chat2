@@ -23,6 +23,7 @@ io.on('connection', (socket) => {
 });
 
 server.listen(PORT, () => {
+  console.log("Versión de Node.js: " + process.version);
   console.log(`Servidor escuchando en ${PORT}`);
 });
 
